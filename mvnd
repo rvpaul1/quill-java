@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-docker run -v ~/.m2:/var/maven/.m2 -v $PWD:/quill-java -w /quill-java -ti --rm -e MAVEN_CONFIG=/var/maven/.m2 maven mvn -Dbasedir=/quill-java -Duser.home=/var/maven
+docker run -v ~/.m2:/var/maven/.m2 -v $PWD:/quill-java -w /quill-java -ti --rm -e MAVEN_CONFIG=/var/maven/.m2 maven:3.8.4 mvn -Dbasedir=/quill-java -Duser.home=/var/maven
