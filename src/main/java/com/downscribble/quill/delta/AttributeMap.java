@@ -1,4 +1,4 @@
-package com.downscribble.quill;
+package com.downscribble.quill.delta;
 
 import java.util.Collections;
 import java.util.HashMap;

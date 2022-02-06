@@ -7,10 +7,10 @@
   <groupId>com.downscribble</groupId>
   <artifactId>quill-java</artifactId>
   <version>0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
 
   <name>quill-java</name>
   <description>A Java implementation of QuillJS Delta functionality</description>
-  <!-- FIXME change it to the project's website -->
   <url>https://www.downscribble.com</url>
 
   <properties>
@@ -84,11 +84,4 @@
     </pluginManagement>
   </build>
 
-  <reporting>
-    <plugins>
-      <plugin>
-        <artifactId>maven-project-info-reports-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </reporting>
 </project>

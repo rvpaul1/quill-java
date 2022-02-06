@@ -1,5 +1,7 @@
 package com.downscribble.quill;
 
+import com.downscribble.quill.delta.AttributeMap;
+import com.downscribble.quill.delta.Delta;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

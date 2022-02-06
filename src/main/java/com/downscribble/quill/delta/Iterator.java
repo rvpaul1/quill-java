@@ -1,4 +1,4 @@
-package com.downscribble.quill;
+package com.downscribble.quill.delta;
 
 import java.util.ArrayList;
 import java.util.List;
